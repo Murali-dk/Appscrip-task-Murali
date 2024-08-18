@@ -1,0 +1,13 @@
+.filter-container {
+  background-color: #ffffff;
+  min-width: 25%;
+  max-width: 80%;
+  min-height: 20vh;
+  padding-top: 2%;
+}
+@media screen and (min-width: 768px) {
+  .filter-container {
+    display: inline;
+    min-height: 50vh;
+  }
+}

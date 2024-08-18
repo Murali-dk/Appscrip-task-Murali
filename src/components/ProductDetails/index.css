@@ -1,0 +1,23 @@
+.singleItem-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+  text-align: center;
+}
+.single-img {
+  width: 250px;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .singleItem-detail {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8%;
+  }
+  .item-details{
+    width: 45%;
+  }
+}

@@ -1,0 +1,27 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.card {
+  width: 30%;
+  max-width: 90%;
+}
+.items-cont {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .empty-img {
+    width: 300px;
+  }
+  .items-cont{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+  }
+}
